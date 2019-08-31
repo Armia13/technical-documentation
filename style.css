@@ -89,3 +89,10 @@ margin: 2em;
     padding: 20px;
     margin-bottom: 110px;
   }
+
+  @media only screen and (max-width: 400px) {
+    body {
+      display: flex;
+      flex-direction: column;
+    }
+}
